@@ -1,0 +1,14 @@
+{
+	"name": "django-tailwind-template",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "tailwindcss -i ./static/styles.css -o ./static/build/styles.css --watch",
+		"build": "tailwindcss -i ./static/styles.css -o ./static/build/styles.css --minify"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.41",
+		"tailwindcss": "^3.4.10"
+	}
+}
